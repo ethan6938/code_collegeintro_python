@@ -60,7 +60,7 @@ class AlienInvasion:
         
         # Number of aliens per row and column
         number_of_aliens_x = 6
-        number_of_aliens_y = 3
+        number_of_aliens_y = 5
 
         # Calculate the starting position to center the fleet
         starting_x = (self.settings.screen_width - (alien_width * number_of_aliens_x)) // 2
@@ -177,4 +177,5 @@ class AlienInvasion:
 if __name__ == '__main__':
     # Create an instance of the game and run it.
     ai = AlienInvasion()
-    ai.run_game()
+    ai.run_game()   
+
